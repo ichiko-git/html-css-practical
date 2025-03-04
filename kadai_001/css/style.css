@@ -56,7 +56,6 @@ header h1 {
 /* About */
 #about {
   max-width: 1080px;
-  text-align: center;
   margin: 0 auto;
   padding: 0 20px 60px;
 }
@@ -69,15 +68,16 @@ header h1 {
 }
 #about-contents {
   display: flex;
-  flex-wrap: wrap;
   gap: 30px;
   align-items: center;
 }
 #about-image {
   width: 50%;
+  text-align: center;
 }
 #about-image img {
   width: 80%;
+  max-width: 250px;
   border-radius: 50%;
 }
 #about-text p {
@@ -93,9 +93,8 @@ header h1 {
 }
 #works-contents {
   display: flex;
-  flex-wrap: wrap;
   gap: 5%;
-  align-items: center;
+  align-items: flex-start;
 }
 .works-item {
   width: 30%;
@@ -104,7 +103,7 @@ header h1 {
   width: 100%;
 }
 .works-item p {
-  text-align: center;
+  text-align: left;
 }
 /* フッター */
 footer {
