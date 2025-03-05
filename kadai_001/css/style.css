@@ -131,4 +131,7 @@ footer {
     width: 100%;
     margin-bottom: 20px;
   }
+  .works-item p {
+    text-align: center;
+  }
 }
